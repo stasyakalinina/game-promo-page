@@ -1,0 +1,12 @@
+.promo {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 300px 0;
+  background: url('../img/background.jpg');
+  background-size: cover;
+
+
+  &__cart {
+    width: 100%;
+  }
+}
