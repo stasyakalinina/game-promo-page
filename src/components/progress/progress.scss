@@ -1,0 +1,59 @@
+.progress {
+  &__bar {
+    position: relative;
+    width:313px;
+    height:75px;
+    background-position: -0px -132px;
+  }
+
+  &__line {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    width:161px;
+    height:64px;
+    background-position: -0px -58px;
+  }
+
+  &__amount {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 33px;
+    text-shadow:
+		-0   -2px 0   #A12D00,
+		 0   -2px 0   #A12D00,
+		-0    2px 0   #A12D00,
+		 0    2px 0   #A12D00,
+		-2px -0   0   #A12D00,
+		 2px -0   0   #A12D00,
+		-2px  0   0   #A12D00,
+		 2px  0   0   #A12D00,
+		-1px -2px 0   #A12D00,
+		 1px -2px 0   #A12D00,
+		-1px  2px 0   #A12D00,
+		 1px  2px 0   #A12D00,
+		-2px -1px 0   #A12D00,
+		 2px -1px 0   #A12D00,
+		-2px  1px 0   #A12D00,
+		 2px  1px 0   #A12D00,
+		-2px -2px 0   #A12D00,
+		 2px -2px 0   #A12D00,
+		-2px  2px 0   #A12D00,
+		 2px  2px 0   #A12D00,
+		-2px -2px 0   #A12D00,
+		 2px -2px 0   #A12D00,
+		-2px  2px 0   #A12D00,
+     2px  2px 0   #A12D00;
+     transform: translate(-50%, -50%);
+  }
+
+  &__key {
+    position: absolute;
+    top: -25px;
+    right: -61px;
+    width:105px;
+    height:113px;
+    background-position: -153px -211px;
+  }
+}

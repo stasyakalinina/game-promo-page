@@ -99,4 +99,44 @@
     left: 148px;
     top: 638px;
   }
+
+  &__balance {
+    position: absolute;
+    top: 944px;
+    left: 164px;
+    font-size: 22px;
+    line-height: 1.1;
+    color: #10507c;
+
+    p {
+      margin: 0 0 5px;
+    }
+
+    span, i {
+      vertical-align: middle;
+    }
+  }
+
+  &__balance-amount {
+    font-size: 25px;
+    line-height: 1.1;
+  }
+
+  &__price-1 {
+    position: absolute;
+    top: 925px;
+    left: 309px;
+  }
+
+  &__price-2 {
+    position: absolute;
+    top: 925px;
+    left: 452px;
+  }
+
+  &__progress {
+    position: absolute;
+    top: 745px;
+    right: 83px;
+  }
 }

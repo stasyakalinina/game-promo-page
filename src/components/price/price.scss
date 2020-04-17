@@ -1,0 +1,48 @@
+.price {
+  span, i {
+    vertical-align: middle;
+  }
+
+  &__sum {
+    font-size: 30px;
+    color: #286d4e;
+  }
+
+  &__btn {
+    display: block;
+    margin: 5px auto;
+    width: 117px;
+    height:58px;
+    background-position: -150px -0px;
+    font-size: 20px;
+    text-shadow:
+		-0   -2px 0   #1367DC,
+		 0   -2px 0   #1367DC,
+		-0    2px 0   #1367DC,
+		 0    2px 0   #1367DC,
+		-2px -0   0   #1367DC,
+		 2px -0   0   #1367DC,
+		-2px  0   0   #1367DC,
+		 2px  0   0   #1367DC,
+		-1px -2px 0   #1367DC,
+		 1px -2px 0   #1367DC,
+		-1px  2px 0   #1367DC,
+		 1px  2px 0   #1367DC,
+		-2px -1px 0   #1367DC,
+		 2px -1px 0   #1367DC,
+		-2px  1px 0   #1367DC,
+		 2px  1px 0   #1367DC,
+		-2px -2px 0   #1367DC,
+		 2px -2px 0   #1367DC,
+		-2px  2px 0   #1367DC,
+		 2px  2px 0   #1367DC,
+		-2px -2px 0   #1367DC,
+		 2px -2px 0   #1367DC,
+		-2px  2px 0   #1367DC,
+     2px  2px 0   #1367DC;
+
+     &:hover {
+      background-position: -33px -0px;
+    }
+  }
+}

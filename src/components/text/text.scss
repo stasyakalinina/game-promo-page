@@ -1,0 +1,19 @@
+.text {
+  max-width: 430px;
+  max-height: 300px;
+  color: #571d40;
+  text-align: center;
+
+  &__lg {
+    margin: 0 0 22px;
+    line-height: 1.2;
+    font-size: 23px;
+  }
+
+  &__sm {
+    margin: 0;
+    padding: 0 43px;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
