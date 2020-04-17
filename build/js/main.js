@@ -1,0 +1,1 @@
+function multiple(l,o){return l*o}console.log(multiple(4,6)),console.log(multiple(2,7));
