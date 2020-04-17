@@ -5,8 +5,98 @@
   background: url('../img/background.jpg');
   background-size: cover;
 
+  &__wrapper {
+    position: relative;
+    min-height: 1453px;
+  }
 
   &__cart {
+    display: block;
+    margin: 0 auto;
     width: 100%;
+  }
+
+  &__title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-shadow:
+    -0   -6px 1px #7F0B01,
+		 0   -6px 1px #7F0B01,
+		-0    6px 1px #7F0B01,
+		 0    6px 1px #7F0B01,
+		-6px -0   1px #7F0B01,
+		 6px -0   1px #7F0B01,
+		-6px  0   1px #7F0B01,
+		 6px  0   1px #7F0B01,
+		-1px -6px 1px #7F0B01,
+		 1px -6px 1px #7F0B01,
+		-1px  6px 1px #7F0B01,
+		 1px  6px 1px #7F0B01,
+		-6px -1px 1px #7F0B01,
+		 6px -1px 1px #7F0B01,
+		-6px  1px 1px #7F0B01,
+		 6px  1px 1px #7F0B01,
+		-2px -6px 1px #7F0B01,
+		 2px -6px 1px #7F0B01,
+		-2px  6px 1px #7F0B01,
+		 2px  6px 1px #7F0B01,
+		-6px -2px 1px #7F0B01,
+		 6px -2px 1px #7F0B01,
+		-6px  2px 1px #7F0B01,
+		 6px  2px 1px #7F0B01,
+		-3px -6px 1px #7F0B01,
+		 3px -6px 1px #7F0B01,
+		-3px  6px 1px #7F0B01,
+		 3px  6px 1px #7F0B01,
+		-6px -3px 1px #7F0B01,
+		 6px -3px 1px #7F0B01,
+		-6px  3px 1px #7F0B01,
+		 6px  3px 1px #7F0B01,
+		-4px -6px 1px #7F0B01,
+		 4px -6px 1px #7F0B01,
+		-4px  6px 1px #7F0B01,
+		 4px  6px 1px #7F0B01,
+		-6px -4px 1px #7F0B01,
+		 6px -4px 1px #7F0B01,
+		-6px  4px 1px #7F0B01,
+		 6px  4px 1px #7F0B01,
+		-5px -6px 1px #7F0B01,
+		 5px -6px 1px #7F0B01,
+		-5px  6px 1px #7F0B01,
+		 5px  6px 1px #7F0B01,
+		-6px -5px 1px #7F0B01,
+		 6px -5px 1px #7F0B01,
+		-6px  5px 1px #7F0B01,
+		 6px  5px 1px #7F0B01,
+		-6px -6px 1px #7F0B01,
+		 6px -6px 1px #7F0B01,
+		-6px  6px 1px #7F0B01,
+		 6px  6px 1px #7F0B01,
+		-6px -6px 1px #7F0B01,
+		 6px -6px 1px #7F0B01,
+		-6px  6px 1px #7F0B01,
+		 6px  6px 1px #7F0B01;
+    transform: translateX(-50%);
+  }
+
+  &__text {
+    position: absolute;
+    top: 352px;
+    left: 180px;
+  }
+
+  &__chest {
+    position: absolute;
+    top: 379px;
+    right: -45px;
+  }
+
+  &__box {
+    position: absolute;
+    left: 148px;
+    top: 638px;
   }
 }

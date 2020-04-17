@@ -1,0 +1,74 @@
+.box {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 15px 0 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: -66px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 74px;
+    font-size: 28px;
+    background-position: -161px -58px;
+    transform: translateX(-50%);
+
+    &:hover {
+      background-position: -273px -58px;
+    }
+  }
+
+  &__amount {
+    margin-right: 5px;
+		text-shadow:
+		-0   -3px 0   #B22667,
+		 0   -3px 0   #B22667,
+		-0    3px 0   #B22667,
+		 0    3px 0   #B22667,
+		-3px -0   0   #B22667,
+		 3px -0   0   #B22667,
+		-3px  0   0   #B22667,
+		 3px  0   0   #B22667,
+		-1px -3px 0   #B22667,
+		 1px -3px 0   #B22667,
+		-1px  3px 0   #B22667,
+		 1px  3px 0   #B22667,
+		-3px -1px 0   #B22667,
+		 3px -1px 0   #B22667,
+		-3px  1px 0   #B22667,
+		 3px  1px 0   #B22667,
+		-2px -3px 0   #B22667,
+		 2px -3px 0   #B22667,
+		-2px  3px 0   #B22667,
+		 2px  3px 0   #B22667,
+		-3px -2px 0   #B22667,
+		 3px -2px 0   #B22667,
+		-3px  2px 0   #B22667,
+		 3px  2px 0   #B22667,
+		-3px -3px 0   #B22667,
+		 3px -3px 0   #B22667,
+		-3px  3px 0   #B22667,
+		 3px  3px 0   #B22667,
+		-3px -3px 0   #B22667,
+		 3px -3px 0   #B22667,
+		-3px  3px 0   #B22667,
+		 3px  3px 0   #B22667;
+  }
+}

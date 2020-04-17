@@ -1,6 +1,33 @@
 .btn {
   text-transform: uppercase;
   font-weight: bold;
+  font-family: inherit;
+  color: inherit;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+
+  &__close {
+    position: absolute;
+    top: 37px;
+    right: 142px;
+    width: 78px;
+    height: 79px;
+    background-position: -313px -132px;
+
+    &:hover {
+      animation-name: rotate;
+      animation-duration: 0.5s;
+      animation-fill-mode: backwards;
+  }
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}}
