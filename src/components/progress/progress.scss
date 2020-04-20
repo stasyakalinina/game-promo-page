@@ -6,19 +6,25 @@
     background-position: -0px -132px;
   }
 
-  &__line {
+  &__bar-wrapper {
     position: absolute;
-    top: 8px;
-    left: 4px;
-    width:161px;
-    height:64px;
-    background-position: -0px -58px;
+    top: 17px;
+    left: 13px;
+    width: 290px;
+    height: 45px;
+  }
+
+  &__line {
+    height: 45px;
+    background: linear-gradient(to bottom, rgb(0, 153, 200) 0%,rgb(161, 193, 221) 30%,rgb(0, 153, 200) 39%,rgb(9, 49, 77) 100%);
+    border-radius: 11px;
   }
 
   &__amount {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin: 0;
     font-size: 33px;
     text-shadow:
 		-0   -2px 0   #A12D00,
