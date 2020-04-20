@@ -3,7 +3,7 @@
     var progressAmount = document.getElementById('progress-number');
     var width = 0;
 
-    var id = setInterval(frame, 50);
+    var id = setInterval(frame, 75);
     function frame() {
       if (width >= 50) {
         clearInterval(id);
